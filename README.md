@@ -21,3 +21,8 @@ Elabore um pequeno programa que utilize uma matriz N x N, com o valor de N forne
 Perguntas:
 - Para diferentes tamanhos de matriz e posicionamento de paredes, há predominância de um dos dois algorismos em termos de casas caminhadas e tempo de execução?
 - Um dos dois algoritmos consegue encontrar o melhor caminho, ou seja, o com menor número de passos?
+
+
+<p align="center">
+	<img src="imgs/labirinto.png"/> 
+</p>
