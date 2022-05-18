@@ -2,7 +2,6 @@
 
 <div style="display: inline-block;">
 <img align="center" alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-<img align="center" alt="C" src="[https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white](https://cdn-images-1.medium.com/max/1200/1*YU6BvZKvxivoEnvqxeG5rw.png)" />
 <img align="center" height="28px" width="112px" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg"/> 
 </a> 
 </div>
