@@ -141,6 +141,19 @@ bool IsReaching(int maze[N][M],int a1,int a2,bool visited[N][M]){
 ```
 
 ## Funcionamento do programa
-<p align="justify">
-...
+
+<p align="justify">	
+	Aqui o usuário escolhe onde ficarão as paredes da matriz, inserindo com zeros (0) onde desejar.
 </p>
+<p align="center">
+<img align="center" src="imgs/matriz.png"/> 
+</p>
+	
+<p align="justify">	
+	Funcionamento básico no terminal.
+</p>
+	
+<p align="center">
+<img align="center" src="imgs/funcionamento.png"/> 
+</p>
+
