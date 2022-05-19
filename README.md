@@ -33,7 +33,7 @@ Para a estrutura BFS usamos essa POHA AÍ EMBAIXO:
 	ps: nao sei explicar oq eu fiz
 </p>
 
-```c
+```cpp
 int BFS_Search(int mazes[N][M]){
     queue<pair<int, int> > queues;
     // Definindo inicialmente i e j em (0, 0).
