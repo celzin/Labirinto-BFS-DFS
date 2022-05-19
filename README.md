@@ -32,10 +32,9 @@ Perguntas:
 	<img align="center" height="300px" width="300px" src="imgs/labirinto.png"/> 
 </p>
 
-## Estrutura BFS
+## Estrutura BFS Search
 <p align="justify">
 Para a estrutura BFS ...
-	ps: nao sei explicar oq eu fiz
 </p>
 
 ```c
