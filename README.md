@@ -25,7 +25,7 @@ Perguntas:
 -->
 
 <p align="center">
-	<img align="center" height="28px" width="112px" src="imgs/labirinto.png"/> 
+	<img align="center" height="300px" width="300px" src="imgs/labirinto.png"/> 
 </p>
 
 ## Estrutura BFS
