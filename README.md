@@ -65,7 +65,7 @@ int BFS_Search(int mazes[N][M]){
 
 ## Método IsReaching
 <p align="justify">
-Nesse método ...
+Nesse método primeiro definimos i e j nas posições (0,0). Em seguida, no while, utilizamos a pilha, que nesse momento ainda estava vazia, para dar início ao processo de empilhamento, sempre empurrando o node para a pilha novamente. Chegando ao ponto final, o programa retorna true. Sempre que a pilha for visitada, retira o node da pilha.
 </p>
 
 ```c
