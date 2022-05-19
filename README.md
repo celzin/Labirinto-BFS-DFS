@@ -30,7 +30,7 @@ Perguntas:
 
 ## Estrutura BFS
 <p align="justify">
-Para a estrutura BFS usamos essa POHA AÍ EMBAIXO: 
+Para a estrutura BFS ...
 	ps: nao sei explicar oq eu fiz
 </p>
 
