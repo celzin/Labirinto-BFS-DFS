@@ -34,7 +34,7 @@ Perguntas:
 
 ## Estrutura BFS Search
 <p align="justify">
-Para a estrutura BFS ...
+Basicamente, para a estrutura Breadth-First Traversal (BFS) começa-se com o nó e colocamos na fila, posteriormente repete-se as etapas a seguir para todos os nós na matriz. Desenfileirar e processá-lo, enfileirar todos os nós adjacentes e processá-los. Sendo (0,0) o nó inicial, primeiro, nós o enfileiramos na fila visitada e todos os seus nós adjacentes na fila. Em seguida, pegamos um dos nós adjacentes para processar, ou seja, 1. Marcamos como visitado removendo-o da fila e colocando seus nós subsequentes na fila, ignorando os nós já visitados.
 </p>
 
 ```c
@@ -65,7 +65,7 @@ int BFS_Search(int mazes[N][M]){
 
 ## Método IsReaching
 <p align="justify">
-Nesse método primeiro definimos i e j nas posições (0,0). Em seguida, no while, utilizamos a pilha, que nesse momento ainda estava vazia, para dar início ao processo de empilhamento, sempre empurrando o node para a pilha novamente. Chegando ao ponto final, o programa retorna true. Sempre que a pilha for visitada, retira o node da pilha.
+Nesse método ...
 </p>
 
 ```c
