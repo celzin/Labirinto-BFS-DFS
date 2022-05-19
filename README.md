@@ -159,7 +159,7 @@ bool IsReaching(int maze[N][M],int a1,int a2,bool visited[N][M]){
 
 ## Compilação e Execução
 
-A lista linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+O código disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     
