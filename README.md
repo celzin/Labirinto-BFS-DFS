@@ -9,6 +9,10 @@
 <p> </p>
 <p> </p>
 
+## Grupo
+- Celso Vinícius S. F.
+- Pedro H. Pires Dias
+
 ## Abstract
 
 Elabore um pequeno programa que utilize uma matriz N x N, com o valor de N fornecido como entrada do programa, o jogo deve ser elaborado utilizando um arquivo de configuração para executar as seguintes operações:
