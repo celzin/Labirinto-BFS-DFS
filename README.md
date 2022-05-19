@@ -12,22 +12,23 @@
 ## Abstract
 
 Elabore um pequeno programa que utilize uma matriz N x N, com o valor de N fornecido como entrada do programa, o jogo deve ser elaborado utilizando um arquivo de configuração para executar as seguintes operações:
-- A) tamanho da matriz; 
-- B) posições de paredes; 
-- C) tipo de busca.
-- O jogo termina assim que for atingido o alvo. 
+- Tamanho da matriz; 
+- Posições de paredes; 
+- Tipo de busca;
+- O jogo termina assim que for atingido o alvo;
 - É preciso imprimir o caminho em tela sob uma representação de matriz. Então, imprima conforme exercício de matriz já realizado.
 
+<!--
 Perguntas:
 - Para diferentes tamanhos de matriz e posicionamento de paredes, há predominância de um dos dois algorismos em termos de casas caminhadas e tempo de execução?
 - Um dos dois algoritmos consegue encontrar o melhor caminho, ou seja, o com menor número de passos?
-
+-->
 
 <p align="center">
 	<img src="imgs/labirinto.png"/> 
 </p>
 
-## BFS
+## Estrutura BFS
 <p align="justify">
 Para a estrutura BFS usamos essa POHA AÍ EMBAIXO: 
 	ps: nao sei explicar oq eu fiz
