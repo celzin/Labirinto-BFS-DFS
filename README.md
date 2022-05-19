@@ -59,3 +59,85 @@ int BFS_Search(int mazes[N][M]){
     return count;
 }           
 ```
+
+## Método IsReaching
+<p align="justify">
+Nesse método ...
+</p>
+
+```c
+bool IsReaching(int maze[N][M],int a1,int a2,bool visited[N][M]){
+    // Definindo inicialmente i e j em (0, 0).
+    int i = 0, j = 0;
+    stack<Node> stacks;
+    Node temporary(i, j);
+    stacks.push(temporary);
+
+    while (!stacks.empty()){
+
+        temporary = stacks.top();
+        int d = temporary.dir;
+        i = temporary.x, j = temporary.y;
+
+        // empurrando o node na pilha novamente.
+        temporary.dir++;
+        stacks.pop();
+        stacks.push(temporary);
+
+        // Se chegarmos ao ponto final retorna true
+        if (i == a1 and j == a2)
+        {
+            //imprimindo as coordenadas
+            while (!stacks.empty()){
+                Node temporary1 = stacks.top();
+                cout << "(" << temporary1.x << "," << temporary1.y << ")->";
+                stacks.pop();
+            }
+            cout << endl << endl;
+            return true;
+        }
+
+        if (d == 0){
+            if (i - 1 >= 0 and maze[i - 1][j] and visited[i - 1][j]){
+                Node temp1(i - 1, j);
+                visited[i - 1][j] = false;
+                stacks.push(temp1);
+            }
+        }
+
+        else if (d == 1){
+            if (j - 1 >= 0 and maze[i][j - 1] and visited[i][j - 1]){
+                Node temp1(i, j - 1);
+                visited[i][j - 1] = false;
+                stacks.push(temp1);
+            }
+        }
+        else if (d == 2){
+            if (i + 1 < N and maze[i + 1][j] and visited[i + 1][j]){
+                Node temp1(i + 1, j);
+                visited[i + 1][j] = false;
+                stacks.push(temp1);
+            }
+        }
+        else if (d == 3){
+            if (j + 1 < M and maze[i][j + 1] and visited[i][j + 1]){
+                Node temp1(i, j + 1);
+                visited[i][j + 1] = false;
+                stacks.push(temp1);
+            }
+        }
+
+        // se for visitado então retira o node
+        else{
+            visited[temporary.x][temporary.y] = true;
+            stacks.pop();
+        }
+    }
+    return false;
+}         
+```
+
+## Funcionamento do programa
+<p align="justify">
+...
+</p>
